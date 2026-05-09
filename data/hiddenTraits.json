@@ -1,0 +1,46 @@
+{
+  "displayName": "隐藏打工气质",
+  "selection": "取 Adj 分数第 2、3 名作为隐藏打工气质；如触发隐藏款，仍按该规则展示。",
+  "traits": [
+    {
+      "id": "spiritual_do_not_disturb",
+      "name": "精神免打扰模式"
+    },
+    {
+      "id": "low_power_survival",
+      "name": "低电量幸存中"
+    },
+    {
+      "id": "message_seen_buffering",
+      "name": "已读缓冲中"
+    },
+    {
+      "id": "polite_micro_rebellion",
+      "name": "礼貌性微反抗"
+    },
+    {
+      "id": "deadline_domesticated",
+      "name": "被 deadline 驯养成功"
+    },
+    {
+      "id": "pot_magnet_body",
+      "name": "黑锅自动吸附体质"
+    },
+    {
+      "id": "caffeine_host",
+      "name": "咖啡因合法宿主"
+    },
+    {
+      "id": "requirement_tolerance",
+      "name": "需求变更耐受体质"
+    },
+    {
+      "id": "soul_left_workstation",
+      "name": "灵魂提前离席"
+    },
+    {
+      "id": "surface_ok_inside_sos",
+      "name": "表面好的内心 SOS"
+    }
+  ]
+}

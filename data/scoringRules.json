@@ -1,0 +1,36 @@
+{
+  "version": "1.1",
+  "scoreScale": {
+    "strong": 3,
+    "medium": 2,
+    "weak": 1
+  },
+  "normalResult": {
+    "n": "取 N 分数最高项作为核心人格",
+    "adj": "取 Adj 分数最高项作为精神气质",
+    "titleTemplate": "{adjName}{nName}"
+  },
+  "tieBreakers": {
+    "n": [
+      "最近 3 题中命中更多者优先",
+      "传播感和辨识度更强者优先",
+      "仍并列时按预设优先级处理"
+    ],
+    "adj": [
+      "最高分作为主气质",
+      "第 2、3 名作为隐藏打工气质",
+      "仍并列时选择与 N 反差更有趣的一项"
+    ]
+  },
+  "hiddenResult": {
+    "id": "work_emperor",
+    "name": "打工皇帝",
+    "condition": "最高 N 分数和第 4 名 N 分数差距 <= 2，且至少有 4 个 N 分数 >= 6",
+    "implementation": {
+      "topMinusFourthMax": 2,
+      "minNCount": 4,
+      "minNScore": 6
+    },
+    "adjRule": "Adj 仍取最高分；第 2、3 名 Adj 展示为隐藏打工气质"
+  }
+}

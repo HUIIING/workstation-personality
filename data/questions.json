@@ -1,0 +1,1126 @@
+[
+  {
+    "id": "q01",
+    "title": "周一早上 10 点，老板突然拉了一个会，标题叫「简单同步一下」。你的第一反应是？",
+    "options": [
+      {
+        "id": "a",
+        "label": "A",
+        "text": "“简单” 这两个字一般不简单，先看参会名单，判断这场会的伤害范围。",
+        "scores": {
+          "n": {
+            "requirement_transformer": 2,
+            "doc_alchemist": 1
+          },
+          "adj": {
+            "brutally_sober": 2,
+            "strategically_silent": 1
+          }
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "text": "接受邀请。然后把自己切成会议模式：能点头，能微笑，暂时不能思考人生。",
+        "scores": {
+          "n": {
+            "balloon_collector": 2,
+            "office_ghost": 1
+          },
+          "adj": {
+            "forced_business_mode": 2,
+            "pretending_calm": 2
+          }
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "text": "管他三七二十一，先喝一口咖啡清醒一下。",
+        "scores": {
+          "n": {
+            "caffeine_factory": 3
+          },
+          "adj": {
+            "caffeinated": 3,
+            "low_battery_mode": 1
+          }
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "text": "周末刚结束，工位还没坐热，就要开始 “简单同步”，艾斯欧艾斯。",
+        "scores": {
+          "n": {
+            "office_ghost": 2,
+            "caffeine_factory": 1
+          },
+          "adj": {
+            "smiling_breakdown": 2,
+            "low_battery_mode": 2
+          }
+        }
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "text": "什么会啊？同步什么啊？我要同步吗？人到场了，脑子什么时候到场，另行通知。",
+        "scores": {
+          "n": {
+            "office_ghost": 3,
+            "paid_poop_king": 1
+          },
+          "adj": {
+            "soul_absent": 3,
+            "one_click_seen": 1
+          }
+        }
+      },
+      {
+        "id": "f",
+        "label": "F",
+        "text": "开始担心聊到一半突然有人说：“那这个你先 owner 一下。”",
+        "scores": {
+          "n": {
+            "black_pot_dealer": 2,
+            "balloon_collector": 1
+          },
+          "adj": {
+            "surviving_in_between": 2,
+            "smiling_breakdown": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "title": "临下班前 8 分钟，突然有人 @ 你：“这个能不能今天看一下？” 你的第一反应是？",
+    "options": [
+      {
+        "id": "a",
+        "label": "A",
+        "text": "看一眼时间，再看一眼对话框，礼貌回复：“我先看下优先级哈。”",
+        "scores": {
+          "n": {
+            "anti_pua_fighter": 1,
+            "doc_alchemist": 1
+          },
+          "adj": {
+            "politely_rebellious": 3,
+            "brutally_sober": 1
+          }
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "text": "表面回复 “收到”，内心已经开始播放“下班梦碎”。",
+        "scores": {
+          "n": {
+            "office_ghost": 2,
+            "balloon_collector": 1
+          },
+          "adj": {
+            "smiling_breakdown": 3,
+            "forced_business_mode": 1
+          }
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "text": "一边骂 “怎么现在才说”，一边开始飞速判断这事要多久能做完。",
+        "scores": {
+          "n": {
+            "deadline_warrior": 3,
+            "requirement_transformer": 1,
+            "caffeine_factory": 1
+          },
+          "adj": {
+            "occasionally_fired_up": 2,
+            "caffeinated": 1
+          }
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "text": "先不急，观察一下这件事有没有可能自己过期。",
+        "scores": {
+          "n": {
+            "paid_poop_king": 2,
+            "office_ghost": 1
+          },
+          "adj": {
+            "skillfully_winging_it": 3,
+            "strategically_silent": 1
+          }
+        }
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "text": "很想问：“今天看一下，是看一眼，还是看完、改完、对齐完？”",
+        "scores": {
+          "n": {
+            "anti_pua_fighter": 2,
+            "requirement_transformer": 1
+          },
+          "adj": {
+            "brutally_sober": 2,
+            "politely_rebellious": 2
+          }
+        }
+      },
+      {
+        "id": "f",
+        "label": "F",
+        "text": "鼠标悬停在对话框不敢点开，怕直接显示“已读”，默默给自己争取 3 分钟心理建设时间。",
+        "scores": {
+          "n": {
+            "balloon_collector": 3,
+            "office_ghost": 1,
+            "black_pot_dealer": 1
+          },
+          "adj": {
+            "one_click_seen": 3,
+            "surviving_in_between": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "title": "需求方说：“这个不行，我们想要那个！” 你问：“那个是哪个？” 对方说：“就是那个啊！” 你的脑子里第一反应是？",
+    "options": [
+      {
+        "id": "a",
+        "label": "A",
+        "text": "开始怀疑这个需求不是沟通问题，是需要去庙里求签。",
+        "scores": {
+          "n": {
+            "requirement_transformer": 2,
+            "balloon_collector": 1
+          },
+          "adj": {
+            "mentally_ascended": 2,
+            "smiling_breakdown": 1
+          }
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "text": "深呼吸，然后把问题改成选择题：A 是这个，B 是那个，C 是你重新组织一下语言。",
+        "scores": {
+          "n": {
+            "doc_alchemist": 3,
+            "anti_pua_fighter": 1
+          },
+          "adj": {
+            "brutally_sober": 2,
+            "politely_rebellious": 2
+          }
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "text": "表面点头：“懂了。” 内心：你懂什么了？我懂什么了？我们真的在同一个世界吗？",
+        "scores": {
+          "n": {
+            "office_ghost": 2,
+            "requirement_transformer": 1
+          },
+          "adj": {
+            "pretending_calm": 2,
+            "soul_absent": 2
+          }
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "text": "先丢给 AI 生成 10 个方向，再从里面挑三个最像人类能交付的版本，看看哪个能让对方突然认亲：“对对对，就是这个。”",
+        "scores": {
+          "n": {
+            "ai_master": 3,
+            "requirement_transformer": 2
+          },
+          "adj": {
+            "cyber_cultivating": 3,
+            "skillfully_winging_it": 1
+          }
+        }
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "text": "短暂失去语言能力，只想把 “那个” 两个字做成需求文档的一级标题。",
+        "scores": {
+          "n": {
+            "doc_alchemist": 2,
+            "requirement_transformer": 2
+          },
+          "adj": {
+            "smiling_breakdown": 2,
+            "mentally_ascended": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "title": "对方给你一个任务，说：“不急，下周给就行。” 你的真实反应是？",
+    "options": [
+      {
+        "id": "a",
+        "label": "A",
+        "text": "“不急” 不代表安全，因为它很可能在某个下午突然变成：“今天能有吗？”",
+        "scores": {
+          "n": {
+            "deadline_warrior": 2,
+            "balloon_collector": 1
+          },
+          "adj": {
+            "surviving_in_between": 2,
+            "smiling_breakdown": 1
+          }
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "text": "表面说 “不急就好”，背地里已经开始偷偷搭框架，毕竟我最怕自己没准备好。",
+        "scores": {
+          "n": {
+            "bubble_roll_king": 3,
+            "deadline_warrior": 1
+          },
+          "adj": {
+            "occasionally_fired_up": 2,
+            "surface_calm": 1
+          }
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "text": "先问清楚：“下周是周一上午，还是周五下班前？” 这两个概念简直天差地别。",
+        "scores": {
+          "n": {
+            "doc_alchemist": 2,
+            "anti_pua_fighter": 1
+          },
+          "adj": {
+            "brutally_sober": 3,
+            "politely_rebellious": 1
+          }
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "text": "把它放进待办列表，告诉自己：这次我一定提前做。然后大脑露出了不太可信的微笑。",
+        "scores": {
+          "n": {
+            "paid_poop_king": 1,
+            "office_ghost": 1,
+            "bubble_roll_king": 1
+          },
+          "adj": {
+            "jumping_between_modes": 3,
+            "skillfully_winging_it": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "title": "你发现一个项目明显要出问题，但群里大家还在说 “应该问题不大”。你的第一反应是？",
+    "options": [
+      {
+        "id": "a",
+        "label": "A",
+        "text": "默默截图留证，成年人最大的安全感来自证据链。",
+        "scores": {
+          "n": {
+            "black_pot_dealer": 3,
+            "doc_alchemist": 1
+          },
+          "adj": {
+            "strategically_silent": 2,
+            "brutally_sober": 1
+          }
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "text": "很想提醒一句，但又怕说完以后，这个问题就默认归我负责了。",
+        "scores": {
+          "n": {
+            "balloon_collector": 3,
+            "black_pot_dealer": 1
+          },
+          "adj": {
+            "surviving_in_between": 3,
+            "one_click_seen": 1
+          }
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "text": "直接把风险、影响、建议动作列出来，不陪大家集体装睡。",
+        "scores": {
+          "n": {
+            "anti_pua_fighter": 2,
+            "deadline_warrior": 2,
+            "doc_alchemist": 1
+          },
+          "adj": {
+            "brutally_sober": 3,
+            "occasionally_fired_up": 1
+          }
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "text": "表面平静地看着群聊，内心已经在给这个项目上香。",
+        "scores": {
+          "n": {
+            "office_ghost": 2,
+            "balloon_collector": 1,
+            "caffeine_factory": 1
+          },
+          "adj": {
+            "surface_calm": 3,
+            "mentally_ascended": 1
+          }
+        }
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "text": "问题不大，应该还可以抢救一下，至少先别让它当场去世。",
+        "scores": {
+          "n": {
+            "deadline_warrior": 2,
+            "requirement_transformer": 1
+          },
+          "adj": {
+            "occasionally_fired_up": 2,
+            "smiling_breakdown": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "title": "你平时坐在工位上的真实状态更像？",
+    "options": [
+      {
+        "id": "a",
+        "label": "A",
+        "text": "人在工位，心在云端，身体负责上班，灵魂负责旁观。看起来很正常，实际上人已经走了有一会儿了。",
+        "scores": {
+          "n": {
+            "office_ghost": 3
+          },
+          "adj": {
+            "soul_absent": 3,
+            "low_battery_mode": 1
+          }
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "text": "电脑亮着，文档开着，咖啡泡着，桌子下面刷了八百个视频，小群蛐蛐了一万个来回。",
+        "scores": {
+          "n": {
+            "caffeine_factory": 2,
+            "paid_poop_king": 2
+          },
+          "adj": {
+            "skillfully_winging_it": 2,
+            "caffeinated": 1,
+            "one_click_seen": 1
+          }
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "text": "工位上空怨气环绕，但本人仍保持基本礼貌。表面在听，内心已经把这件事复盘到下辈子了。",
+        "scores": {
+          "n": {
+            "balloon_collector": 2,
+            "anti_pua_fighter": 1
+          },
+          "adj": {
+            "politely_rebellious": 2,
+            "surface_calm": 2
+          }
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "text": "中午吃什么？晚上吃什么？什么时候下班？什么时候放假？",
+        "scores": {
+          "n": {
+            "paid_poop_king": 3
+          },
+          "adj": {
+            "off_work_first": 3,
+            "low_battery_mode": 1
+          }
+        }
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "text": "同时养 8 只龙虾、10 个 agent、化身 AI 八爪鱼，不用担心，所有需求稳稳托住。",
+        "scores": {
+          "n": {
+            "ai_master": 3,
+            "requirement_transformer": 1
+          },
+          "adj": {
+            "cyber_cultivating": 3,
+            "mentally_ascended": 1
+          }
+        }
+      },
+      {
+        "id": "f",
+        "label": "F",
+        "text": "工位主理人，做你的，做你的，做完你的做你的。",
+        "scores": {
+          "n": {
+            "bubble_roll_king": 3,
+            "deadline_warrior": 1
+          },
+          "adj": {
+            "occasionally_fired_up": 2,
+            "forced_business_mode": 1
+          }
+        }
+      },
+      {
+        "id": "g",
+        "label": "G",
+        "text": "安安稳稳，平平淡淡，好好工作，认真生活。",
+        "scores": {
+          "n": {
+            "office_ghost": 1,
+            "doc_alchemist": 1
+          },
+          "adj": {
+            "surface_calm": 2,
+            "pretending_calm": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "title": "团队突然说这周要团建，你的第一反应是？",
+    "options": [
+      {
+        "id": "a",
+        "label": "A",
+        "text": "去！这可是和大老板自然唠嗑、顺便刷个存在感的绝妙机会。",
+        "scores": {
+          "n": {
+            "bubble_roll_king": 2,
+            "deadline_warrior": 1
+          },
+          "adj": {
+            "occasionally_fired_up": 2,
+            "brutally_sober": 1
+          }
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "text": "去！就爱和我的亲亲团队一起玩～开心～开心～",
+        "scores": {
+          "n": {
+            "caffeine_factory": 1,
+            "bubble_roll_king": 1
+          },
+          "adj": {
+            "forced_business_mode": 2,
+            "mentally_ascended": 1
+          }
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "text": "非工作时间的团建，和变相加班有什么区别？",
+        "scores": {
+          "n": {
+            "anti_pua_fighter": 3,
+            "paid_poop_king": 1
+          },
+          "adj": {
+            "off_work_first": 3,
+            "politely_rebellious": 1
+          }
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "text": "表面：“好耶。” 内心：我和同事的关系已经好到需要在办公室外继续见面了吗？",
+        "scores": {
+          "n": {
+            "balloon_collector": 2,
+            "office_ghost": 1
+          },
+          "adj": {
+            "pretending_calm": 2,
+            "smiling_breakdown": 1
+          }
+        }
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "text": "只要不占周末、不强制表演、不搞尴尬游戏，我愿意短暂假装自己是团队的一部分。",
+        "scores": {
+          "n": {
+            "office_ghost": 1,
+            "balloon_collector": 1
+          },
+          "adj": {
+            "forced_business_mode": 2,
+            "surviving_in_between": 2
+          }
+        }
+      },
+      {
+        "id": "f",
+        "label": "F",
+        "text": "不去。",
+        "scores": {
+          "n": {
+            "paid_poop_king": 2,
+            "anti_pua_fighter": 2
+          },
+          "adj": {
+            "off_work_first": 2,
+            "strategically_silent": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "title": "老板突然在群里说：“这个事情交给你我比较放心，你很靠谱。” 你的第一反应是？",
+    "options": [
+      {
+        "id": "a",
+        "label": "A",
+        "text": "有点开心，默默打开待办列表，准备接住这份沉甸甸的信任。",
+        "scores": {
+          "n": {
+            "bubble_roll_king": 2,
+            "deadline_warrior": 1
+          },
+          "adj": {
+            "occasionally_fired_up": 2,
+            "forced_business_mode": 1
+          }
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "text": "开心是开心，但这份信任最后能不能折算进绩效。",
+        "scores": {
+          "n": {
+            "anti_pua_fighter": 2,
+            "bubble_roll_king": 1
+          },
+          "adj": {
+            "brutally_sober": 3,
+            "politely_rebellious": 1
+          }
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "text": "完了，“靠谱” 这两个字一出来，我就知道我的工作量要疯长了。",
+        "scores": {
+          "n": {
+            "balloon_collector": 2,
+            "black_pot_dealer": 1
+          },
+          "adj": {
+            "smiling_breakdown": 3,
+            "surviving_in_between": 1
+          }
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "text": "好的，收到。（肌肉记忆版）",
+        "scores": {
+          "n": {
+            "office_ghost": 2,
+            "balloon_collector": 1
+          },
+          "adj": {
+            "forced_business_mode": 2,
+            "low_battery_mode": 1
+          }
+        }
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "text": "表面：“谢谢认可。” 内心：我的靠谱人设终于开始反噬我了，决定从今天开始营造一种 “偶尔不太靠谱” 的个人品牌。",
+        "scores": {
+          "n": {
+            "anti_pua_fighter": 2,
+            "paid_poop_king": 1,
+            "black_pot_dealer": 1
+          },
+          "adj": {
+            "skillfully_winging_it": 3,
+            "politely_rebellious": 1
+          }
+        }
+      },
+      {
+        "id": "f",
+        "label": "F",
+        "text": "立刻开始拆任务、排节奏、想风险。没办法，身体已经自动接活了。",
+        "scores": {
+          "n": {
+            "deadline_warrior": 3,
+            "doc_alchemist": 1,
+            "caffeine_factory": 1
+          },
+          "adj": {
+            "occasionally_fired_up": 2,
+            "cyber_cultivating": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "title": "如果合作对象里必须有一种 “职场妖怪”，你最怕遇到哪种？",
+    "options": [
+      {
+        "id": "a",
+        "label": "A",
+        "text": "需求每天变三次，还每次都说：“这个只是小调整。”",
+        "scores": {
+          "n": {
+            "requirement_transformer": 3
+          },
+          "adj": {
+            "jumping_between_modes": 3,
+            "smiling_breakdown": 1
+          }
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "text": "开会时一言不发，会后私聊补充八百条意见。",
+        "scores": {
+          "n": {
+            "doc_alchemist": 1,
+            "balloon_collector": 2
+          },
+          "adj": {
+            "one_click_seen": 2,
+            "surviving_in_between": 2
+          }
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "text": "甩锅前不打草稿，锅飞过来的速度比消息已读还快。",
+        "scores": {
+          "n": {
+            "black_pot_dealer": 3,
+            "anti_pua_fighter": 1
+          },
+          "adj": {
+            "strategically_silent": 2,
+            "brutally_sober": 1
+          }
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "text": "嘴上说 “都可以”，最后说：“但这不是我想要的感觉。”",
+        "scores": {
+          "n": {
+            "requirement_transformer": 2,
+            "office_ghost": 1
+          },
+          "adj": {
+            "mentally_ascended": 2,
+            "smiling_breakdown": 2
+          }
+        }
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "text": "半夜发文档说 “不急，你明天看”，但第二天早上 9 点开始问 “有想法了吗？”",
+        "scores": {
+          "n": {
+            "deadline_warrior": 2,
+            "balloon_collector": 1
+          },
+          "adj": {
+            "low_battery_mode": 2,
+            "surviving_in_between": 1
+          }
+        }
+      },
+      {
+        "id": "f",
+        "label": "F",
+        "text": "什么事都要 “用 AI 赋能一下”，但问他到底想赋什么，他说：“你先发散看看。”",
+        "scores": {
+          "n": {
+            "ai_master": 2,
+            "requirement_transformer": 1
+          },
+          "adj": {
+            "cyber_cultivating": 2,
+            "politely_rebellious": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "title": "接下来一小时没人找你、没人 @ 你、没有会。你第一反应是？",
+    "options": [
+      {
+        "id": "a",
+        "label": "A",
+        "text": "快，趁现在，先把最恶心的那个活干掉。",
+        "scores": {
+          "n": {
+            "deadline_warrior": 3,
+            "bubble_roll_king": 1
+          },
+          "adj": {
+            "occasionally_fired_up": 2,
+            "brutally_sober": 1
+          }
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "text": "是不是系统崩了？还是我网断了？？赶紧拿手机切个 5G 确认一下，毕竟咱们这行，平时怎么可能有一整个小时这么安静！",
+        "scores": {
+          "n": {
+            "balloon_collector": 2,
+            "office_ghost": 1
+          },
+          "adj": {
+            "smiling_breakdown": 2,
+            "low_battery_mode": 1,
+            "surviving_in_between": 1
+          }
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "text": "去茶水间接杯水或者买杯咖啡，放空回血一下。",
+        "scores": {
+          "n": {
+            "caffeine_factory": 3
+          },
+          "adj": {
+            "caffeinated": 2,
+            "surface_calm": 1,
+            "low_battery_mode": 1
+          }
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "text": "身体往椅子深处一缩，眼神死死锁住屏幕，坚决不和任何路过的人发生视线对撞。只要我一动不动，就没有新的需求能发现我！",
+        "scores": {
+          "n": {
+            "office_ghost": 3,
+            "paid_poop_king": 1
+          },
+          "adj": {
+            "strategically_silent": 2,
+            "soul_absent": 2,
+            "skillfully_winging_it": 1
+          }
+        }
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "text": "打开一个空白文档，理一下被塞得乱七八糟的 ToDo list，分个优先级，整理那些“本来想做但一直没时间做”的事情。感觉自己又重新掌控了一切！",
+        "scores": {
+          "n": {
+            "doc_alchemist": 3,
+            "deadline_warrior": 1,
+            "ai_master": 1
+          },
+          "adj": {
+            "surface_calm": 2,
+            "occasionally_fired_up": 1,
+            "brutally_sober": 1
+          }
+        }
+      },
+      {
+        "id": "f",
+        "label": "F",
+        "text": "这时候不摸鱼，简直对不起这泼天的富贵！",
+        "scores": {
+          "n": {
+            "paid_poop_king": 3,
+            "office_ghost": 1
+          },
+          "adj": {
+            "skillfully_winging_it": 2,
+            "off_work_first": 1,
+            "soul_absent": 1
+          }
+        }
+      },
+      {
+        "id": "g",
+        "label": "G",
+        "text": "跳上办公桌大喊：“你们凭啥冷暴力俺！”",
+        "scores": {
+          "n": {
+            "balloon_collector": 2,
+            "bubble_roll_king": 1,
+            "caffeine_factory": 1
+          },
+          "adj": {
+            "mentally_ascended": 3,
+            "smiling_breakdown": 2,
+            "forced_business_mode": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "title": "下班路上突然想到一个绝妙方案，你的第一反应是？",
+    "options": [
+      {
+        "id": "a",
+        "label": "A",
+        "text": "立刻掏出手机语音备忘，一秒都不能等，生怕这个灵感过了红绿灯就投胎。",
+        "scores": {
+          "n": {
+            "bubble_roll_king": 2,
+            "deadline_warrior": 1,
+            "ai_master": 1
+          },
+          "adj": {
+            "occasionally_fired_up": 3,
+            "cyber_cultivating": 1
+          }
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "text": "默默在脑子里转了一圈，觉得自己真是个天才，然后到家就忘了。",
+        "scores": {
+          "n": {
+            "office_ghost": 2,
+            "doc_alchemist": 1
+          },
+          "adj": {
+            "soul_absent": 3,
+            "mentally_ascended": 1
+          }
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "text": "我都下班了，怎么可能还去想方案？",
+        "scores": {
+          "n": {
+            "paid_poop_king": 2,
+            "anti_pua_fighter": 2
+          },
+          "adj": {
+            "off_work_first": 3,
+            "brutally_sober": 1
+          }
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "text": "发给相关同事，让他们也在下班后感受一下被灵感「突袭」的美妙。",
+        "scores": {
+          "n": {
+            "requirement_transformer": 2,
+            "bubble_roll_king": 1,
+            "black_pot_dealer": 1
+          },
+          "adj": {
+            "forced_business_mode": 2,
+            "jumping_between_modes": 1,
+            "occasionally_fired_up": 1
+          }
+        }
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "text": "先记一句关键词，剩下的交给明天的自己；至于明天的自己认不认账，那是明天的事。",
+        "scores": {
+          "n": {
+            "doc_alchemist": 2,
+            "paid_poop_king": 1
+          },
+          "adj": {
+            "skillfully_winging_it": 2,
+            "low_battery_mode": 2,
+            "one_click_seen": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "title": "公司楼下突然出现一个「打工人许愿池」，据说只能许一个愿，你会许什么？",
+    "options": [
+      {
+        "id": "a",
+        "label": "A",
+        "text": "希望所有「简单同步一下」都真的简单，同步完就散，不要长出三个新需求。",
+        "scores": {
+          "n": {
+            "requirement_transformer": 2,
+            "deadline_warrior": 1
+          },
+          "adj": {
+            "brutally_sober": 2,
+            "strategically_silent": 1
+          }
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "text": "希望所有临下班的新需求，必须自动延期到第二天，并附赠一句：「辛苦了，明天看就行。」",
+        "scores": {
+          "n": {
+            "anti_pua_fighter": 2,
+            "paid_poop_king": 2
+          },
+          "adj": {
+            "off_work_first": 3,
+            "politely_rebellious": 1
+          }
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "text": "希望所有「你比较靠谱」后面，都自动弹出一个涨薪审批流程，别只给我涨活不给我涨钱。",
+        "scores": {
+          "n": {
+            "bubble_roll_king": 2,
+            "anti_pua_fighter": 2
+          },
+          "adj": {
+            "brutally_sober": 3,
+            "politely_rebellious": 1
+          }
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "text": "希望所有需求方都能准确说出「那个」到底是哪个，不要让我靠通灵交付。",
+        "scores": {
+          "n": {
+            "requirement_transformer": 3,
+            "doc_alchemist": 1
+          },
+          "adj": {
+            "smiling_breakdown": 2,
+            "surviving_in_between": 2
+          }
+        }
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "text": "希望所有锅在飞向我之前，先经过实名制认证和证据链检查，审批不通过的锅自动退回发起人。",
+        "scores": {
+          "n": {
+            "black_pot_dealer": 3,
+            "doc_alchemist": 1
+          },
+          "adj": {
+            "strategically_silent": 2,
+            "surface_calm": 2,
+            "brutally_sober": 1
+          }
+        }
+      },
+      {
+        "id": "f",
+        "label": "F",
+        "text": "希望每天 17:00 后，工作软件自动进入成年人防沉迷模式，禁止成年人继续受苦。",
+        "scores": {
+          "n": {
+            "paid_poop_king": 3,
+            "office_ghost": 1
+          },
+          "adj": {
+            "off_work_first": 3,
+            "low_battery_mode": 2,
+            "soul_absent": 1
+          }
+        }
+      }
+    ]
+  }
+]
