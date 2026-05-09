@@ -319,8 +319,89 @@ function escapeHtml(str) {
     .replace(/'/g, '&#039;');
 }
 
-function saveResultTip() {
-  alert('保存结果图功能后续接入。现在可以先用系统截图保存结果页。');
+function ensureShareModal() {
+  let modal = document.getElementById('shareModal');
+  if (modal) return modal;
+
+  modal = document.createElement('div');
+  modal.id = 'shareModal';
+  modal.className = 'share-modal';
+  modal.innerHTML = `
+    <div class="share-modal-backdrop" data-close-share="true"></div>
+    <div class="share-modal-panel" role="dialog" aria-modal="true" aria-label="保存结果图">
+      <button class="share-modal-close" type="button" data-close-share="true" aria-label="关闭">×</button>
+      <p class="share-modal-title">结果图已生成</p>
+      <p class="share-modal-tip">手机端可长按图片保存；电脑端可右键保存图片。</p>
+      <div class="share-image-wrap">
+        <img id="sharePreviewImage" alt="工位人格测试结果图" />
+      </div>
+      <a id="shareDownloadLink" class="primary-btn share-download" download="workstation-personality-result.png">下载结果图</a>
+    </div>
+  `;
+  document.body.appendChild(modal);
+  modal.addEventListener('click', (event) => {
+    if (event.target.dataset.closeShare === 'true') {
+      closeShareModal();
+    }
+  });
+  return modal;
+}
+
+function openShareModal(imageUrl) {
+  const modal = ensureShareModal();
+  const preview = modal.querySelector('#sharePreviewImage');
+  const download = modal.querySelector('#shareDownloadLink');
+  preview.src = imageUrl;
+  download.href = imageUrl;
+  modal.classList.add('show');
+  document.body.classList.add('share-modal-open');
+}
+
+function closeShareModal() {
+  const modal = document.getElementById('shareModal');
+  if (!modal) return;
+  modal.classList.remove('show');
+  document.body.classList.remove('share-modal-open');
+}
+
+async function saveResultTip() {
+  const target = document.querySelector('.poster-card');
+  if (!target) {
+    alert('还没有生成结果页，请先完成测试。');
+    return;
+  }
+
+  if (typeof html2canvas !== 'function') {
+    alert('结果图生成组件加载失败，请刷新页面后重试。');
+    return;
+  }
+
+  const originalText = els.saveBtn.textContent;
+  els.saveBtn.disabled = true;
+  els.saveBtn.textContent = '生成中...';
+
+  try {
+    const canvas = await html2canvas(target, {
+      backgroundColor: null,
+      scale: Math.min(2.5, window.devicePixelRatio || 2),
+      useCORS: true,
+      allowTaint: false,
+      logging: false,
+      scrollX: 0,
+      scrollY: -window.scrollY,
+      windowWidth: document.documentElement.clientWidth,
+      windowHeight: document.documentElement.clientHeight
+    });
+
+    const imageUrl = canvas.toDataURL('image/png');
+    openShareModal(imageUrl);
+  } catch (error) {
+    console.error(error);
+    alert('结果图生成失败，可以先用系统截图保存。');
+  } finally {
+    els.saveBtn.disabled = false;
+    els.saveBtn.textContent = originalText;
+  }
 }
 
 els.startBtn.addEventListener('click', startQuiz);
