@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>工位人格研究所</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<main id="app" class="app">
+  <section id="home" class="screen screen-home active">
+    <div class="main-card">
+      <div class="blob one"></div>
+      <div class="blob two"></div>
+      <div class="blob three"></div>
+      <div class="lab-badge">WORKSTATION PERSONALITY LAB</div>
+      <div class="home-center">
+        <div class="mascot-placeholder has-image"><img src="assets/results/beast.png" alt="牛马兽原型" /></div>
+        <h1 class="hero-title">工位人格研究所</h1>
+        <p class="subtitle">测测你是哪种当代工位牛马兽</p>
+        <p class="intro">12 道职场场景题，生成你的「精神气质 + 核心人格」诊断报告。</p>
+        <button id="startBtn" class="primary-btn">开始检测我的牛马属性</button>
+        <div class="heat-pill">今日已有 <strong id="homeHeat">--</strong> 位打工人完成检测</div>
+      </div>
+      <p class="footer-note">本测试不具备任何科学性，但可能具备一点点准确性。</p>
+    </div>
+  </section>
+
+  <section id="quiz" class="screen screen-quiz">
+    <div class="topbar">
+      <button id="backBtn" class="back-icon" type="button" aria-label="返回上一题">←</button>
+      <div class="progress-text">Q<span id="currentIndex">1</span> / <span id="totalCount">12</span></div>
+      <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+    </div>
+    <article class="question-card">
+      <h2 id="questionTitle"></h2>
+      <div id="optionsList" class="options-list"></div>
+    </article>
+  </section>
+
+  <section id="loading" class="screen screen-loading">
+    <div class="loader-card">
+      <div class="loader-mascot"></div>
+      <h2>正在分析你的工位精神状态</h2>
+      <p id="loadingText">正在扫描你的班味浓度……</p>
+    </div>
+  </section>
+
+  <section id="result" class="screen screen-result">
+    <article class="poster-card">
+      <div class="lab-badge">WORKSTATION PERSONALITY LAB · NO.8864</div>
+      <div class="result-image-stage">
+        <div id="resultImage" class="result-image"><span>牛马兽</span></div>
+      </div>
+      <p class="result-kicker">你的工位人格是</p>
+      <h1 id="resultTitle"></h1>
+      <div class="result-meta">
+        <span id="rarityBadge">--</span>
+        <span id="rateBadge">牛马兽稀有度 --</span>
+      </div>
+      <div id="resultTagline" class="tagline-card"></div>
+    </article>
+
+    <section class="info-card">
+      <h3>核心人格说明</h3>
+      <div id="resultDescription" class="description"></div>
+    </section>
+
+    <section class="info-card">
+      <h3>精神气质说明</h3>
+      <p id="adjDescription"></p>
+    </section>
+
+    <section class="quote-card">
+      <h3>工位座右铭</h3>
+      <blockquote id="resultMotto"></blockquote>
+    </section>
+
+    <section class="info-card">
+      <h3>使用说明书</h3>
+      <ul id="manualList" class="manual-list"></ul>
+    </section>
+
+    <section class="compact-card">
+      <div class="compact-row">
+        <span class="compact-label">隐藏打工气质</span>
+        <div id="hiddenTraitText" class="compact-value"></div>
+      </div>
+      <div class="compact-row">
+        <span class="compact-label">副人格倾向</span>
+        <div id="secondaryNText" class="compact-value"></div>
+      </div>
+    </section>
+
+    <div class="actions">
+      <button id="restartBtn" class="primary-btn">再测一次</button>
+      <button id="saveBtn" class="secondary-btn">保存结果图</button>
+    </div>
+    <p class="save-tip">保存结果图功能后续接入；当前可先使用系统截图。</p>
+    <p class="result-disclaimer">No.8864 ｜ 本测试没有科学依据，但有一定打工依据。</p>
+  </section>
+</main>
+  <script src="app.js"></script>
+</body>
+</html>
