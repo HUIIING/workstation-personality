@@ -549,13 +549,6 @@ button { font: inherit; }
   font-weight: 950;
 }
 
-.save-tip {
-  margin: 0 4px;
-  color: var(--muted);
-  font-size: 12px;
-  line-height: 1.65;
-  text-align: center;
-}
 
 .researcher-note,
 .result-disclaimer {
